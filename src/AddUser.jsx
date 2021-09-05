@@ -65,6 +65,8 @@ class AddUser extends React.Component {
             case 'pwd':
                 fData.pwd = evt.target.value
                 break; 
+            default:
+                break;
         }
         this.setState({formData:fData});
     }
